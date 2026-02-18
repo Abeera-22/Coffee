@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Brew Haven</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Brew Haven</h2>
+            <p>Experience the finest coffee in a cozy atmosphere.</p>
+            <a href="#menu" class="cta-button">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Brew Haven, we're passionate about serving exceptional coffee sourced from the best beans around the world. Our cozy shop is the perfect spot to relax, catch up with friends, or dive into a good book. Join us for a cup of perfection.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=300&h=200&fit=crop" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <p>A bold and rich shot of pure coffee.</p>
+                    <span class="price">PKR 450</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=300&h=200&fit=crop" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <p>Steamed milk topped with frothy foam.</p>
+                    <span class="price">PKR 500</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&h=200&fit=crop" alt="Latte">
+                    <h3>Latte</h3>
+                    <p>Smooth espresso with steamed milk.</p>
+                    <span class="price">PKR 550</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop" alt="Mocha">
+                    <h3>Mocha</h3>
+                    <p>Chocolatey delight with espresso.</p>
+                    <span class="price">PKR 650</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=300&h=200&fit=crop" alt="Americano">
+                    <h3>Americano</h3>
+                    <p>Diluted espresso for a milder taste.</p>
+                    <span class="price">PKR 400</span>
+                </div>
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=300&h=200&fit=crop" alt="Macchiato">
+                    <h3>Macchiato</h3>
+                    <p>Espresso with a dollop of foam.</p>
+                    <span class="price">PKR 525</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=300&h=200&fit=crop" alt="Coffee Shop Interior">
+                <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=300&h=200&fit=crop" alt="Coffee Cups">
+                <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=300&h=200&fit=crop" alt="Barista at Work">
+                <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=300&h=200&fit=crop" alt="Cozy Seating">
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <p>"The best coffee I've ever had! The atmosphere is so welcoming."</p>
+                    <cite>- Sarah J.</cite>
+                </div>
+                <div class="review-card">
+                    <p>"Love the latte here. Perfect balance of flavors."</p>
+                    <cite>- Mike T.</cite>
+                </div>
+                <div class="review-card">
+                    <p>"Great place to relax with a book and a cup of joe."</p>
+                    <cite>- Emily R.</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Brew Haven Coffee Shop. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Embedded JavaScript -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.nav-menu a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu after clicking
+                document.querySelector('.nav-menu').classList.remove('active');
+            });
+        });
+
+        // Hamburger menu toggle
+        document.querySelector('.hamburger').addEventListener('click', () => {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        // Form validation
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !email || !message) {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            if (!isValidEmail(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+
+            // Simulate form submission (in a real app, you'd send to server)
+            alert('Thank you for your message! We\'ll get back to you soon.');
+            this.reset();
+        });
+
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        // Scroll animation effect
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Apply fade-in to sections
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('fade-in');
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
